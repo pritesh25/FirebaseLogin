@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     // [START declare_auth]
     private FirebaseAuth mAuth;
     // [END declare_auth]
+    //done
 
     private GoogleSignInClient mGoogleSignInClient;
     private TextView mStatusTextView;
@@ -51,7 +52,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         // [START config_signin]
         // Configure Google Sign In
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-                .requestIdToken(getString(R.string.default_web_client_id))
+                .requestIdToken("189442586290-q58s83cvj37b56980idlbraticf65rop.apps.googleusercontent.com")
                 .requestEmail()
                 .build();
         // [END config_signin]
