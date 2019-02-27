@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     // [START declare_auth]
     private FirebaseAuth mAuth;
     // [END declare_auth]
+    //done
 
     private GoogleSignInClient mGoogleSignInClient;
     private TextView mStatusTextView;
