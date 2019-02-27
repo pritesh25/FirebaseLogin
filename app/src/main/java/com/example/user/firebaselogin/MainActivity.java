@@ -186,6 +186,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
+    //added
     @Override
     public void onClick(View v) {
         int i = v.getId();
